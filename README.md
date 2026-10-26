@@ -1,70 +1,80 @@
-# 拓麻歌子 Paradise · 中文代码图鉴
+<div align="center">
 
-Tamagotchi Paradise 中文兑换码速查网页。基于原中文整理版做小幅优化，保留 78 条记录、77 张原站图片，以及粉紫色图鉴布局。
+# 🐣 Tamagotchi Paradise 中文代码图鉴
 
-- 按类别和主机版本筛选，支持中文、英文、代码与来源搜索。
-- 一键复制，保留代码前导零；图鉴与表格视图切换。
-- 已使用标记、主机版本与视图偏好保存在当前浏览器。
-- 图片全部随仓库保存，页面加载不依赖 Fandom 图片服务器。
-- 图片可放大，支持键盘打开、Esc 关闭及焦点恢复，适配窄屏与减少动态效果设置。
-- 无第三方运行依赖、无需打包构建，可以直接部署静态文件。
+查兑换码、看适用版本、复制即用。
 
-## 本地查看
+[![构建状态](https://img.shields.io/github/actions/workflow/status/isunky/TamagotchiCode/check.yml?branch=main&label=build&logo=githubactions&logoColor=white)](https://github.com/isunky/TamagotchiCode/actions/workflows/check.yml)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-在线-F38020?logo=cloudflare&logoColor=white)](https://tamagotchi-code.pages.dev)
+[![静态网站](https://img.shields.io/badge/依赖-零-blue)](https://github.com/isunky/TamagotchiCode)
 
-可以直接打开 `public/index.html`；本地文件下的剪贴板和存储能力取决于浏览器限制，建议使用 HTTP 预览：
+[打开在线图鉴](https://tamagotchi-code.pages.dev) · [浏览 GitHub 仓库](https://github.com/isunky/TamagotchiCode) · [查看英文资料](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)
 
-```sh
+</div>
+
+## 关于本项目
+
+一个轻巧的中文速查页，整理 Tamagotchi Paradise 的角色贴纸码与商店兑换码。共收录 **78 条记录**，其中 **77 张图片已随项目保存**；打开图鉴后，不必再从原站加载图片。
+
+## 图鉴功能
+
+- **快速查找：** 搜索中文名、英文名、兑换码或获取途径。
+- **按需筛选：** 按类别和主机版本查找适用代码。
+- **一键复制：** 保留代码中的空格和前导零。
+- **两种视图：** 在图片卡片与紧凑表格间切换。
+- **个人标记：** 记下已使用的代码；标记和筛选偏好保存在当前浏览器。
+- **原图放大：** 点击图片查看细节，也支持键盘操作。
+
+## 在线使用
+
+直接打开 **[tamagotchi-code.pages.dev](https://tamagotchi-code.pages.dev)** 即可。无需安装或注册；GitHub 上的 `main` 分支更新后，Cloudflare Pages 会自动重新部署。
+
+## 在本地运行
+
+项目是纯静态网页，无需 npm 安装、打包或构建。用 Python 启动本地预览：
+
+```bash
 python -m http.server 8080 --directory public
 ```
 
-打开 <http://localhost:8080>。线上 HTTPS 部署支持浏览器剪贴板 API。
+浏览器访问 [http://localhost:8080](http://localhost:8080)。也可以直接打开 `public/index.html`；部分浏览器在直接打开文件时会限制剪贴板或本地存储功能。
 
-## 部署到 Cloudflare Pages
+## Cloudflare Pages 部署
 
-此仓库已经连接到 Cloudflare Pages 项目 [`tamagotchi-code`](https://dash.cloudflare.com/?to=/:account/pages/view/tamagotchi-code)，生产分支为 `main`。每次推送 `main` 会自动发布到 [tamagotchi-code.pages.dev](https://tamagotchi-code.pages.dev)，其他分支会生成预览部署。
+本仓库已连接至 Cloudflare Pages 项目 **`tamagotchi-code`**。自动部署设置如下：
 
-| 设置 | 值 |
+| 项目 | 设置 |
 | --- | --- |
-| Production branch | `main` |
-| Framework preset | `None` |
-| Build command | `exit 0` |
-| Build output directory | `public` |
-| Root directory | 仓库根目录（留空） |
+| GitHub 仓库 | [`isunky/TamagotchiCode`](https://github.com/isunky/TamagotchiCode) |
+| 生产分支 | `main` |
+| 框架预设 | `None` |
+| 构建命令 | `exit 0` |
+| 输出目录 | `public` |
+| 根目录 | `/`（仓库根目录） |
+| 正式网址 | [tamagotchi-code.pages.dev](https://tamagotchi-code.pages.dev) |
 
-Cloudflare 项目已经设置为构建命令 `exit 0`、输出目录 `public`、根目录 `/`。如果要重建 GitHub 集成，进入 **Workers & Pages → tamagotchi-code → Settings → Builds & deployments**，保留这些设置并选择 `isunky/TamagotchiCode` 的 `main` 分支。部署由 Cloudflare 的 GitHub 集成触发；请在连接时允许该集成访问此仓库。本仓库不包含令牌或账户凭证。
+其他分支会生成预览部署。检查或修改设置时，在 Cloudflare 控制台打开 **Workers & Pages → tamagotchi-code → Settings → Builds & deployments**。
 
-也可以在安装 Node.js 后通过 Wrangler 直接上传：
+## 项目结构
 
-```sh
-npx wrangler login
-npx wrangler pages project create tamagotchi-code --production-branch main
-npx wrangler pages deploy public --project-name tamagotchi-code --branch main
+```text
+public/
+├── index.html                 页面结构
+├── _headers                   响应头与图片缓存
+└── assets/
+    ├── app.js                 搜索、筛选、复制与界面交互
+    ├── data.js                代码、分类与来源说明
+    ├── styles.css             页面样式与窄屏布局
+    ├── image-sources.json     图片来源与 SHA-256 校验值
+    └── images/                本地 WebP 图片
+scripts/
+└── validate.mjs               校验数据、图片与文件引用
 ```
 
-已有同名项目时跳过创建命令。Git 集成与 Direct Upload 是两种不同的项目创建方式，建议先选定一种；`wrangler.jsonc` 已声明 Pages 输出目录为 `public`。
+编辑图鉴数据时，更新 `public/assets/data.js` 中对应记录，并保留 `localImg` 路径和 `public/assets/image-sources.json` 中的图片来源记录。
 
-配置依据：[Cloudflare 静态 HTML 部署指南](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/)、[Direct Upload](https://developers.cloudflare.com/pages/get-started/direct-upload/)。
+## 资料与版权
 
-## 维护与检查
+代码与中文整理依据 [Tamagotchi Wiki 的代码列表](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)。本项目为非官方中文整理，代码适用性请以实际设备为准。
 
-```sh
-node --check public/assets/app.js
-node --check public/assets/data.js
-node scripts/validate.mjs
-```
-
-GitHub Actions 会在 `main` 推送和 PR 时执行相同检查，核对数据格式、本地图片、来源记录与 SHA-256。不需要安装 npm 包。
-
-- `public/index.html`：页面结构。
-- `public/assets/styles.css`：样式与响应式布局。
-- `public/assets/data.js`：中文数据；`img` 保留原站文件名，`localImg` 指向本地图片。
-- `public/assets/app.js`：搜索、筛选、复制、本地标记及放大交互。
-- `public/assets/images/`：77 张图片（原站 CDN 返回的 WebP 格式）。
-- `public/assets/image-sources.json`：逐张来源与完整性信息。
-- `public/_headers`：Cloudflare Pages 响应头与图片缓存。
-
-原整理中的“秋千 / Swing”没有图片，页面明确显示未提供图片。兑换码和版本对应关系保留自原整理，并非自动同步的数据；后续可直接编辑 `data.js`。同一码在不同版本对应不同外观的记录会分别保留。
-
-## 资料与许可
-
-资料来自 [Tamagotchi Wiki / Fandom](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)，本项目为非官方中文整理。仓库原有 Apache-2.0 LICENSE 用于代码；Wiki 翻译内容、商标与图片遵循各自授权，详见 [NOTICE.md](NOTICE.md)。
+仓库中的 `LICENSE` 适用于项目代码。Wiki 文字、翻译内容、拓麻歌子商标和图片分别遵循其原有权利与授权；图片来源及相关说明见 [`NOTICE.md`](NOTICE.md) 和 `public/assets/image-sources.json`。
