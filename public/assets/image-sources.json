@@ -1,0 +1,695 @@
+[
+  {
+    "originalImage": "0/00/TamaChineseHat_Paradise_sprite.png",
+    "path": "assets/images/0/00/TamaChineseHat_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/0/00/TamaChineseHat_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:TamaChineseHat_Paradise_sprite.png",
+    "sha256": "ff6d4d001da992627223b4ad13ae5db7969baf8fa874467c368bc0da8c162eaf",
+    "bytes": 162,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "0/09/Axolopatchi_Lab_Sticker.jpeg",
+    "path": "assets/images/0/09/Axolopatchi_Lab_Sticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/0/09/Axolopatchi_Lab_Sticker.jpeg/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Axolopatchi_Lab_Sticker.jpeg",
+    "sha256": "c478836904787c71fc2ad1e173c6944ec0249028fe47e4afd319f6717acfcdc1",
+    "bytes": 37954,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "1/13/MeowtchiPlush_Paradise_sprite.png",
+    "path": "assets/images/1/13/MeowtchiPlush_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/1/13/MeowtchiPlush_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MeowtchiPlush_Paradise_sprite.png",
+    "sha256": "bc58d3d03459cdb3a56b77cdc723eb9979cd8efb8834605d2d8986c3d0f24552",
+    "bytes": 202,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "1/13/Pochitchi_Lab_Sticker.JPG",
+    "path": "assets/images/1/13/Pochitchi_Lab_Sticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/1/13/Pochitchi_Lab_Sticker.JPG/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Pochitchi_Lab_Sticker.JPG",
+    "sha256": "bf5b4a279c8d8d24ee8acfb1c64b42a9fb089dbae3061411f78e0aed02565da0",
+    "bytes": 82904,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "1/13/Shiitaketchi_Lab_Sticker.jpeg",
+    "path": "assets/images/1/13/Shiitaketchi_Lab_Sticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/1/13/Shiitaketchi_Lab_Sticker.jpeg/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Shiitaketchi_Lab_Sticker.jpeg",
+    "sha256": "8b48caf8eb54873525e9dad77a2897a7e859dfa844bcda4ba06102191262c642",
+    "bytes": 37506,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "1/19/Meowtchi_sticker.png",
+    "path": "assets/images/1/19/Meowtchi_sticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/1/19/Meowtchi_sticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Meowtchi_sticker.png",
+    "sha256": "31c2b0f49b2fab1d285e3439d05b16f52456b310aeb2b67f4c91c3a1c54e30a8",
+    "bytes": 103268,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "1/1b/Galette_Paradise_sprite.png",
+    "path": "assets/images/1/1b/Galette_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/1/1b/Galette_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Galette_Paradise_sprite.png",
+    "sha256": "fc868178fa8af354b47215c6f4169dfdea248f29640507c8feed70f04e828b4b",
+    "bytes": 370,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "1/1b/LeafCrown_Paradise_sprite.png",
+    "path": "assets/images/1/1b/LeafCrown_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/1/1b/LeafCrown_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:LeafCrown_Paradise_sprite.png",
+    "sha256": "5144dacc6c126781c127c76978b828d22b07505e1f9033d026001ec71b4dccf4",
+    "bytes": 212,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "1/1c/75_PariPariBar_Paradise_sprite.png",
+    "path": "assets/images/1/1c/75_PariPariBar_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/1/1c/75_PariPariBar_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:75_PariPariBar_Paradise_sprite.png",
+    "sha256": "294f5a9b5d26d2ff2329c340e3d52303dc1454d4e44cef2a43dc320e0751f873",
+    "bytes": 298,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "2/22/Kanokotchi_Lab_Sticker.jpeg",
+    "path": "assets/images/2/22/Kanokotchi_Lab_Sticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/2/22/Kanokotchi_Lab_Sticker.jpeg/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Kanokotchi_Lab_Sticker.jpeg",
+    "sha256": "b5a2d617dd46c6b89c02374ea8bbd3c00a5e9658a4e6cda1b2bd32b830a4d707",
+    "bytes": 39702,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "2/25/CosmitchiLabSticker.png",
+    "path": "assets/images/2/25/CosmitchiLabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/2/25/CosmitchiLabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:CosmitchiLabSticker.png",
+    "sha256": "e7d7367adcdc7d3263803a48225dc508d0092d9f3d37bf98fbd81c2f947a0260",
+    "bytes": 111248,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "2/25/CurryRice_Paradise_sprite.png",
+    "path": "assets/images/2/25/CurryRice_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/2/25/CurryRice_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:CurryRice_Paradise_sprite.png",
+    "sha256": "efa44aee5fec8232cfc09d2c4e4e0fbf77c726bd359101d18aa1deabe41f10e1",
+    "bytes": 328,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "2/27/Bathtub_Paradise_sprite.png",
+    "path": "assets/images/2/27/Bathtub_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/2/27/Bathtub_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Bathtub_Paradise_sprite.png",
+    "sha256": "bb43c509e5c666312324e4e74d7ffdb4ac805a112bcaf29329cf792faff75fd5",
+    "bytes": 272,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "2/29/IrukatchiPlush_Paradise_sprite.png",
+    "path": "assets/images/2/29/IrukatchiPlush_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/2/29/IrukatchiPlush_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:IrukatchiPlush_Paradise_sprite.png",
+    "sha256": "35939ca925f4fcb23d60a9270c7150fdfa9a612c1c7cd20de4ae497590a2d6fe",
+    "bytes": 198,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "3/32/Mametchi_Lab_Sticker.webp",
+    "path": "assets/images/3/32/Mametchi_Lab_Sticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/3/32/Mametchi_Lab_Sticker.webp/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Mametchi_Lab_Sticker.webp",
+    "sha256": "b9ab812f930c38b704daf37481517fa9c3090920325e7e233c42b52837f8ec25",
+    "bytes": 185286,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "3/39/TamaPouch_Paradise_sprite.png",
+    "path": "assets/images/3/39/TamaPouch_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/3/39/TamaPouch_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:TamaPouch_Paradise_sprite.png",
+    "sha256": "0ec117d4114abedf528656c8a6226d553a51cc24b6cd28a579aa78c6bdd3c604",
+    "bytes": 190,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "3/3b/RiceCakes_Paradise_sprite.png",
+    "path": "assets/images/3/3b/RiceCakes_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/3/3b/RiceCakes_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:RiceCakes_Paradise_sprite.png",
+    "sha256": "74b8aad9bab705066c246879eba00bafd6fc4d3418e5876370b5332799d75026",
+    "bytes": 186,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "3/3c/Paradise_BUB.png",
+    "path": "assets/images/3/3c/Paradise_BUB.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/3/3c/Paradise_BUB.png/revision/latest?cb=20260822015736",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Paradise_BUB.png",
+    "sha256": "12b6ffc78117961ad29eb037aa7ddc3ee21204d58ab4ff63bfe23e9c70578d4d",
+    "bytes": 9096,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "4/40/PrettyBow_Paradise_sprite.png",
+    "path": "assets/images/4/40/PrettyBow_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/4/40/PrettyBow_Paradise_sprite.png/revision/latest?cb=20250730211911",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:PrettyBow_Paradise_sprite.png",
+    "sha256": "ee09d81ad6b979555800ebf3b899cfa49036550f5e57256df6401ae00802f9a6",
+    "bytes": 318,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "4/41/Book_Paradise_sprite.png",
+    "path": "assets/images/4/41/Book_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/4/41/Book_Paradise_sprite.png/revision/latest?cb=20260424150138",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Book_Paradise_sprite.png",
+    "sha256": "bfe272db4d1d9cd2587cf53b1f68737b0f0fb1cf2e314941a38820a2979f3b9f",
+    "bytes": 192,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "4/4f/ChristmasTree_Paradise_sprite.png",
+    "path": "assets/images/4/4f/ChristmasTree_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/4/4f/ChristmasTree_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:ChristmasTree_Paradise_sprite.png",
+    "sha256": "1ef7441cf6a2c3013ed0bb0528b6c1e9027384f93528d9d6f2e2ed720ef6cc5f",
+    "bytes": 404,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "4/4f/MegRhythm_Paradise_sprite.png",
+    "path": "assets/images/4/4f/MegRhythm_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/4/4f/MegRhythm_Paradise_sprite.png/revision/latest?cb=20260909171510",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MegRhythm_Paradise_sprite.png",
+    "sha256": "690fd6bd97914a274d8388b2157c26a09b29226847ca2e3ef155268f8b38f06d",
+    "bytes": 320,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "5/58/Parorotchi_LabSticker.png",
+    "path": "assets/images/5/58/Parorotchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/5/58/Parorotchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Parorotchi_LabSticker.png",
+    "sha256": "9944e9b01f5fc67d250dd933edb8a5b1cb4e611748615bd1194b2700641f173b",
+    "bytes": 150744,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "5/5b/Paradise_SurpriseBox.png",
+    "path": "assets/images/5/5b/Paradise_SurpriseBox.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/5/5b/Paradise_SurpriseBox.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Paradise_SurpriseBox.png",
+    "sha256": "690b0c6d1e2434d33e39c613e4bdd71c29e6117460981a1b89f4e29a57d9d09b",
+    "bytes": 240,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "5/5b/UmahikoOutsideToy_Paradise_sprite.png",
+    "path": "assets/images/5/5b/UmahikoOutsideToy_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/5/5b/UmahikoOutsideToy_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:UmahikoOutsideToy_Paradise_sprite.png",
+    "sha256": "837601fb853bf6dba2e134fcc43058fc36283b27b23b5399a43ea52ad1ef9746",
+    "bytes": 514,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "6/62/PlumBlossomOrnament_Paradise_sprite.png",
+    "path": "assets/images/6/62/PlumBlossomOrnament_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/6/62/PlumBlossomOrnament_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:PlumBlossomOrnament_Paradise_sprite.png",
+    "sha256": "ae71deebd05f7b10403e32e299bcf46aba67ccadbd6e0f3d294e123031658ce5",
+    "bytes": 220,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "6/64/AcademicCap_Paradise_sprite.png",
+    "path": "assets/images/6/64/AcademicCap_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/6/64/AcademicCap_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:AcademicCap_Paradise_sprite.png",
+    "sha256": "95d2c7854734b5c6169a883fdd07343a1cd761bbfb2b75b8aa26f0efb3d4bb2a",
+    "bytes": 232,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "6/66/Okojotchi_LabSticker.png",
+    "path": "assets/images/6/66/Okojotchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/6/66/Okojotchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Okojotchi_LabSticker.png",
+    "sha256": "5b027955e66e275ff20aae63be08a3d71db98f453d4b719bac76f79bea651087",
+    "bytes": 148150,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "6/6e/73_Bolo_Paradise_sprite.png",
+    "path": "assets/images/6/6e/73_Bolo_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/6/6e/73_Bolo_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:73_Bolo_Paradise_sprite.png",
+    "sha256": "81a7c94acf8ea2f235d780277f3abfa4344bbf26009a51b6e149190dffdf600b",
+    "bytes": 312,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "6/6f/ColorfulWing_Paradise_sprite.png",
+    "path": "assets/images/6/6f/ColorfulWing_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/6/6f/ColorfulWing_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:ColorfulWing_Paradise_sprite.png",
+    "sha256": "4e73219d2b52a4c844e64d71fed2c715598d2f33184af3c9279836a5a7072bc4",
+    "bytes": 330,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "6/6f/Magazine_Paradise_sprite.png",
+    "path": "assets/images/6/6f/Magazine_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/6/6f/Magazine_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Magazine_Paradise_sprite.png",
+    "sha256": "108e5f9bd59b7b5f131c8a6c85b404fe86796d88da2c94d239a7f6066677e785",
+    "bytes": 258,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "7/73/MarutchiPlush_Paradise_sprite.png",
+    "path": "assets/images/7/73/MarutchiPlush_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/7/73/MarutchiPlush_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MarutchiPlush_Paradise_sprite.png",
+    "sha256": "e4e9dd511fbdf19a53fd6bc6c98c25371b25da68676045e2c25120cf773cabd1",
+    "bytes": 120,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "7/7d/TamaBackpack_Paradise_sprite.png",
+    "path": "assets/images/7/7d/TamaBackpack_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/7/7d/TamaBackpack_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:TamaBackpack_Paradise_sprite.png",
+    "sha256": "282ec282c9566d2983d002ea13e65e1e8c8886fd40ed92b8a75a8409d6ee5bb6",
+    "bytes": 338,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/80/Paradise_GashaponMachine.png",
+    "path": "assets/images/8/80/Paradise_GashaponMachine.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/80/Paradise_GashaponMachine.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Paradise_GashaponMachine.png",
+    "sha256": "e8965d1fe10b955fbf03e1b6f64873ac75377510a4f91285922cb0bcc969ba90",
+    "bytes": 386,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/81/Ginjirotchi_LabSticker.webp",
+    "path": "assets/images/8/81/Ginjirotchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/81/Ginjirotchi_LabSticker.webp/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Ginjirotchi_LabSticker.webp",
+    "sha256": "72163081cee51bf90da941ae2cc271cee13fb66d5accbb365c38d1b6b6f5edc0",
+    "bytes": 80296,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/81/MixedSoftServe_Paradise_sprite.png",
+    "path": "assets/images/8/81/MixedSoftServe_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/81/MixedSoftServe_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MixedSoftServe_Paradise_sprite.png",
+    "sha256": "a6ff58a02ccdab9e91ddb718f865e71298f755dca761c1b6597d2bfaa1e93373",
+    "bytes": 274,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/81/Pen_Paradise_sprite.png",
+    "path": "assets/images/8/81/Pen_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/81/Pen_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Pen_Paradise_sprite.png",
+    "sha256": "b961c6c33fbce1f47fcc2db745bd87a527753ebe35a32d822d3aa9faf040fc5e",
+    "bytes": 208,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/81/ShootingStarHeadband_Paradise_sprite.png",
+    "path": "assets/images/8/81/ShootingStarHeadband_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/81/ShootingStarHeadband_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:ShootingStarHeadband_Paradise_sprite.png",
+    "sha256": "26841479829f60e9dce1387321a6293c8c9c80277a5087482b12a6da2470b8a0",
+    "bytes": 128,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/83/SoftServe_Paradise_sprite.png",
+    "path": "assets/images/8/83/SoftServe_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/83/SoftServe_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:SoftServe_Paradise_sprite.png",
+    "sha256": "167d534d97e5d63fecb72613829b537d033ba3721b1dec3cbd365f82806ac4fd",
+    "bytes": 272,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/86/MametchiPlush_Paradise_sprite.png",
+    "path": "assets/images/8/86/MametchiPlush_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/86/MametchiPlush_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MametchiPlush_Paradise_sprite.png",
+    "sha256": "5a767d6562c3c6edcf6787116255061290e22defbffbbcc0e28f6247464ac128",
+    "bytes": 132,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/87/CellPhone_Paradise_sprite.png",
+    "path": "assets/images/8/87/CellPhone_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/87/CellPhone_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:CellPhone_Paradise_sprite.png",
+    "sha256": "e22a199add4309763ba4dda5b45e67315f02970716bc61aa5f1c8a581218058f",
+    "bytes": 170,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/88/Pouch_Paradise_sprite.png",
+    "path": "assets/images/8/88/Pouch_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/88/Pouch_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Pouch_Paradise_sprite.png",
+    "sha256": "14bb614cf4885280e967618e8b471629559aa0c0a6a15855758a2000eebcd4c6",
+    "bytes": 400,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/89/Horhotchi_LabSticker.jpg",
+    "path": "assets/images/8/89/Horhotchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/89/Horhotchi_LabSticker.jpg/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Horhotchi_LabSticker.jpg",
+    "sha256": "1ed68ff70846f140154140e9a0c400780b2cf7e8b1440226d081a4ce9f6b360e",
+    "bytes": 114026,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "8/8a/KuchipatchiPlush_Paradise_sprite.png",
+    "path": "assets/images/8/8a/KuchipatchiPlush_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/8/8a/KuchipatchiPlush_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:KuchipatchiPlush_Paradise_sprite.png",
+    "sha256": "9751db34ccbab0b1290e118be0a4c3d53b81ea806cf2b5f1363be4415733f88d",
+    "bytes": 156,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "9/92/IrukatchiHat_Paradise_sprite.png",
+    "path": "assets/images/9/92/IrukatchiHat_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/9/92/IrukatchiHat_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:IrukatchiHat_Paradise_sprite.png",
+    "sha256": "5af733fb1fade51011d35e63d15a576559195f7a8483315d1ea7a9815d8a9dfd",
+    "bytes": 258,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "9/95/CandyCane_Paradise_sprite.png",
+    "path": "assets/images/9/95/CandyCane_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/9/95/CandyCane_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:CandyCane_Paradise_sprite.png",
+    "sha256": "99bbba6e5522bf3162cbea18c03a2426a9e37e8afbb17493bee58095bdb1bcce",
+    "bytes": 176,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "9/95/Poizutchi_LabSticker.png",
+    "path": "assets/images/9/95/Poizutchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/9/95/Poizutchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Poizutchi_LabSticker.png",
+    "sha256": "89b6ea1a7dd430e533b45747b63cd744d366a946858e0a02972cb8c5879cc3a2",
+    "bytes": 155632,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "9/98/Mimitchi_LabSticker.png",
+    "path": "assets/images/9/98/Mimitchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/9/98/Mimitchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Mimitchi_LabSticker.png",
+    "sha256": "4337dadbb5268590db75e5e37416ec3d3098c4f789b9503c999b54536a1d4084",
+    "bytes": 158690,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "9/9b/TamaverseObject_Paradise_sprite.png",
+    "path": "assets/images/9/9b/TamaverseObject_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/9/9b/TamaverseObject_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:TamaverseObject_Paradise_sprite.png",
+    "sha256": "da6dac886b28ce5bdb14ccdb59057eede8fd175cbb1b5fc04bcc6608a01db684",
+    "bytes": 910,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "9/9d/MeowtchiHeadband_Paradise_sprite.png",
+    "path": "assets/images/9/9d/MeowtchiHeadband_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/9/9d/MeowtchiHeadband_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MeowtchiHeadband_Paradise_sprite.png",
+    "sha256": "898817779cc669f4d7e4d9a5360db07709e3d4ac7649eb9f038eef47d69be78d",
+    "bytes": 188,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "a/a2/BunnyHat_Paradise_sprite.png",
+    "path": "assets/images/a/a2/BunnyHat_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/a/a2/BunnyHat_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:BunnyHat_Paradise_sprite.png",
+    "sha256": "f407ee59fda68adf94a7278c9df5a6cdfa71a77c17824df604985b08e056b753",
+    "bytes": 274,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "a/a4/Furawatchi_LabSticker.png",
+    "path": "assets/images/a/a4/Furawatchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/a/a4/Furawatchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Furawatchi_LabSticker.png",
+    "sha256": "35174d67d4bc9146ee5da0ad1ffa76065cab9556eef60569cba5dc222a709cbb",
+    "bytes": 131814,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "a/aa/HorhotchiPlush_Paradise_sprite.png",
+    "path": "assets/images/a/aa/HorhotchiPlush_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/a/aa/HorhotchiPlush_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:HorhotchiPlush_Paradise_sprite.png",
+    "sha256": "56989d2c828ea2ce290f59bd44acfb7021dddfb2f2b1223e7ba1070e5565c42e",
+    "bytes": 206,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "a/aa/HornsHeadband_Paradise_sprite.png",
+    "path": "assets/images/a/aa/HornsHeadband_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/a/aa/HornsHeadband_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:HornsHeadband_Paradise_sprite.png",
+    "sha256": "419cf51dc7de81376d1ccc3eb049e732a6ae94309e6e3a40a45241c35eccabfe",
+    "bytes": 172,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "a/ab/Balloons_PlanetDeco_Paradise_sprite.png",
+    "path": "assets/images/a/ab/Balloons_PlanetDeco_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/a/ab/Balloons_PlanetDeco_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Balloons_PlanetDeco_Paradise_sprite.png",
+    "sha256": "d828b7dcdabc7e52feee91d21f74d70c7260d4ea5aebcefe29c916583e51d58c",
+    "bytes": 274,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "a/ac/AcademicCap_Pink_Paradise_sprite.png",
+    "path": "assets/images/a/ac/AcademicCap_Pink_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/a/ac/AcademicCap_Pink_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:AcademicCap_Pink_Paradise_sprite.png",
+    "sha256": "a00e65c1b926176eb0d7402187e4dddde7a94dc0c71af8f460a51762378240a9",
+    "bytes": 216,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "a/ac/Gummies_Paradise_sprite.png",
+    "path": "assets/images/a/ac/Gummies_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/a/ac/Gummies_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Gummies_Paradise_sprite.png",
+    "sha256": "9c6e4f8effd04f6ec31fbb660844a2e141acd96d340eaa35810615347d30bb44",
+    "bytes": 320,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "b/b6/TropicalMeowtchi_LabSticker.png",
+    "path": "assets/images/b/b6/TropicalMeowtchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/b/b6/TropicalMeowtchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:TropicalMeowtchi_LabSticker.png",
+    "sha256": "9e19e64604b5825cf813b80aba618a49a97df0d36758c60744ae6c567f5e6273",
+    "bytes": 160268,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "b/ba/IceCream_Paradise_sprite.png",
+    "path": "assets/images/b/ba/IceCream_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/b/ba/IceCream_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:IceCream_Paradise_sprite.png",
+    "sha256": "a908c8385bf29103ae537fb0e31ba5b95dec449463378a6ae2d58f8fce0d473a",
+    "bytes": 318,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "c/c0/WhiteChocolatePlush_Paradise_sprite.png",
+    "path": "assets/images/c/c0/WhiteChocolatePlush_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/c/c0/WhiteChocolatePlush_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:WhiteChocolatePlush_Paradise_sprite.png",
+    "sha256": "f6e0cf222b169271361f53a0f685059032a82dda93fc962adf548eb9fe56030a",
+    "bytes": 442,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "c/ca/SleepyFriendHeadband_Paradise_sprite.png",
+    "path": "assets/images/c/ca/SleepyFriendHeadband_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/c/ca/SleepyFriendHeadband_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:SleepyFriendHeadband_Paradise_sprite.png",
+    "sha256": "17241437113645348ad188436604a387deba8debd997a80490a410bdadc42e50",
+    "bytes": 256,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "c/cb/53_Tacos_Paradise_sprite.png",
+    "path": "assets/images/c/cb/53_Tacos_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/c/cb/53_Tacos_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:53_Tacos_Paradise_sprite.png",
+    "sha256": "6f02cdd8d36d78b34853f64bd2c72befcd60e46057225e613933a079d89c0afe",
+    "bytes": 354,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "c/ce/Book_Deco_Paradise_sprite.png",
+    "path": "assets/images/c/ce/Book_Deco_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/c/ce/Book_Deco_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Book_Deco_Paradise_sprite.png",
+    "sha256": "b36f39b6373ad406afd3a53d8933a20bc0341c3d281aa17c7248200ff1c09639",
+    "bytes": 296,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "d/d5/IcyIrukatchi_Labsticker.png",
+    "path": "assets/images/d/d5/IcyIrukatchi_Labsticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/d/d5/IcyIrukatchi_Labsticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:IcyIrukatchi_Labsticker.png",
+    "sha256": "d619ba56b74679fd185e8dae6220d97283073727a78289e71e382230c7d67e42",
+    "bytes": 140224,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "d/da/Irukatchi_LabSticker.jpg",
+    "path": "assets/images/d/da/Irukatchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/d/da/Irukatchi_LabSticker.jpg/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Irukatchi_LabSticker.jpg",
+    "sha256": "96130443d880d9a1f59580ced23eb8ec5c419421d14e94c4b59f3d539da3c0c8",
+    "bytes": 112180,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "d/dc/Lantern_Paradise_sprite.png",
+    "path": "assets/images/d/dc/Lantern_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/d/dc/Lantern_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Lantern_Paradise_sprite.png",
+    "sha256": "70b3e25f5bd7fed03fe44cb5f791b92b0e36bd6426ac98a33307ace43273437a",
+    "bytes": 134,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "d/dd/Mongatchi_LabSticker.png",
+    "path": "assets/images/d/dd/Mongatchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/d/dd/Mongatchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Mongatchi_LabSticker.png",
+    "sha256": "82d772598c5eb2ea02c2fe97a6673f2948b5002a45665d9eb75aff4c3181c6d7",
+    "bytes": 141922,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "d/dd/MtFujiHat_Paradise_sprite.png",
+    "path": "assets/images/d/dd/MtFujiHat_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/d/dd/MtFujiHat_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MtFujiHat_Paradise_sprite.png",
+    "sha256": "23241dd92b306800108bbae00fbb47095f3b28af60631d209edc5e534a8ac281",
+    "bytes": 232,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "d/dd/Tokipatchi_Lab_Sticker.jpeg",
+    "path": "assets/images/d/dd/Tokipatchi_Lab_Sticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/d/dd/Tokipatchi_Lab_Sticker.jpeg/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Tokipatchi_Lab_Sticker.jpeg",
+    "sha256": "6072967efa213fe86d6184f01b220978d1c19d7a165074c153f1937d69822fa6",
+    "bytes": 34346,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "d/de/MushroomHat_Paradise_sprite.png",
+    "path": "assets/images/d/de/MushroomHat_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/d/de/MushroomHat_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:MushroomHat_Paradise_sprite.png",
+    "sha256": "c5bde4223d64b3aa8b76b810b7d30c0d0cf89448fbadddf90a86f71f8c2076e5",
+    "bytes": 198,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "e/e6/TamagotchiPlushes_Paradise_sprite.png",
+    "path": "assets/images/e/e6/TamagotchiPlushes_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/e/e6/TamagotchiPlushes_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:TamagotchiPlushes_Paradise_sprite.png",
+    "sha256": "5104f6249b26b4c654975adf6c4ba04fca73428f960e8d3cdfa2ef55920174f9",
+    "bytes": 448,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "e/ea/PlanetRing_Paradise_sprite.png",
+    "path": "assets/images/e/ea/PlanetRing_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/e/ea/PlanetRing_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:PlanetRing_Paradise_sprite.png",
+    "sha256": "dae18be2fd4049cab3b0204f9ab2b4b4a16d314608d6397caa26ec3ef9479207",
+    "bytes": 378,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "f/f0/74_Yukinoyado_Paradise_sprite.png",
+    "path": "assets/images/f/f0/74_Yukinoyado_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/74_Yukinoyado_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:74_Yukinoyado_Paradise_sprite.png",
+    "sha256": "8d089e5ae9ef4dbb754a9e530bda1061a49ae86fe3dabd8b564ba3fe44929c76",
+    "bytes": 402,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "f/f0/Kawazutchi_LabSticker.png",
+    "path": "assets/images/f/f0/Kawazutchi_LabSticker.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/f/f0/Kawazutchi_LabSticker.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:Kawazutchi_LabSticker.png",
+    "sha256": "b7b26e3d4ac0f7df1b2ae80791d1acebc5978dbced14cf02f424f1992d85d92c",
+    "bytes": 153914,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "f/fb/HorhotchiWing_Paradise_sprite.png",
+    "path": "assets/images/f/fb/HorhotchiWing_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/f/fb/HorhotchiWing_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:HorhotchiWing_Paradise_sprite.png",
+    "sha256": "611a666529587bd2b8d6fa1e521be21ba82d91071f01b39a89a24ac3203696bc",
+    "bytes": 158,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "f/fb/JinsGlasses_Paradise_sprite.png",
+    "path": "assets/images/f/fb/JinsGlasses_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/f/fb/JinsGlasses_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:JinsGlasses_Paradise_sprite.png",
+    "sha256": "ffcbf5c485439c0e01d14ff31c9bdedd47285aa5323eb1f1538f21143e791214",
+    "bytes": 182,
+    "contentType": "image/webp"
+  },
+  {
+    "originalImage": "f/fd/PrinceTamahikoUFO_Paradise_sprite.png",
+    "path": "assets/images/f/fd/PrinceTamahikoUFO_Paradise_sprite.webp",
+    "source": "https://static.wikia.nocookie.net/tamagotchi/images/f/fd/PrinceTamahikoUFO_Paradise_sprite.png/revision/latest",
+    "file_page": "https://tamagotchi.fandom.com/wiki/File:PrinceTamahikoUFO_Paradise_sprite.png",
+    "sha256": "77800a375770ed6ffa9c0db30a5b1bf5ffc87caa1f792af58ab5dce1ce392d93",
+    "bytes": 578,
+    "contentType": "image/webp"
+  }
+]
