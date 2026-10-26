@@ -4,11 +4,13 @@
 
 查兑换码、看适用版本、复制即用。
 
+[![立即在线访问](https://img.shields.io/badge/在线访问-立即体验-6C5CE7?style=for-the-badge&logo=cloudflare&logoColor=white)](https://tc.sunky.net/)
+
 [![构建状态](https://img.shields.io/github/actions/workflow/status/isunky/TamagotchiCode/check.yml?branch=main&label=build&logo=githubactions&logoColor=white)](https://github.com/isunky/TamagotchiCode/actions/workflows/check.yml)
-[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-在线-F38020?logo=cloudflare&logoColor=white)](https://tamagotchi-code.pages.dev)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-在线-F38020?logo=cloudflare&logoColor=white)](https://tc.sunky.net/)
 [![静态网站](https://img.shields.io/badge/依赖-零-blue)](https://github.com/isunky/TamagotchiCode)
 
-[打开在线图鉴](https://tamagotchi-code.pages.dev) · [浏览 GitHub 仓库](https://github.com/isunky/TamagotchiCode) · [查看英文资料](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)
+[打开在线图鉴](https://tc.sunky.net/) · [浏览 GitHub 仓库](https://github.com/isunky/TamagotchiCode) · [查看英文资料](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)
 
 </div>
 
@@ -27,7 +29,7 @@
 
 ## 在线使用
 
-直接打开 **[tamagotchi-code.pages.dev](https://tamagotchi-code.pages.dev)** 即可。无需安装或注册；GitHub 上的 `main` 分支更新后，Cloudflare Pages 会自动重新部署。
+直接打开 **[tc.sunky.net](https://tc.sunky.net/)** 即可。无需安装或注册；GitHub 上的 `main` 分支更新后，Cloudflare Pages 会自动重新部署。
 
 ## 在本地运行
 
@@ -51,7 +53,7 @@ python -m http.server 8080 --directory public
 | 构建命令 | `exit 0` |
 | 输出目录 | `public` |
 | 根目录 | `/`（仓库根目录） |
-| 正式网址 | [tamagotchi-code.pages.dev](https://tamagotchi-code.pages.dev) |
+| 正式网址 | [tc.sunky.net](https://tc.sunky.net/) |
 
 其他分支会生成预览部署。检查或修改设置时，在 Cloudflare 控制台打开 **Workers & Pages → tamagotchi-code → Settings → Builds & deployments**。
 
