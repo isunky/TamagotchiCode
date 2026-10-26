@@ -21,7 +21,7 @@ python -m http.server 8080 --directory public
 
 ## 部署到 Cloudflare Pages
 
-推荐连接 GitHub，推送 `main` 后自动部署。在 Cloudflare 控制台进入 **Workers & Pages → Create application → Pages → Import an existing Git repository**，选择 `isunky/TamagotchiCode`，填写：
+此仓库已经连接到 Cloudflare Pages 项目 [`tamagotchi-code`](https://dash.cloudflare.com/?to=/:account/pages/view/tamagotchi-code)，生产分支为 `main`。每次推送 `main` 会自动发布到 [tamagotchi-code.pages.dev](https://tamagotchi-code.pages.dev)，其他分支会生成预览部署。
 
 | 设置 | 值 |
 | --- | --- |
@@ -31,7 +31,7 @@ python -m http.server 8080 --directory public
 | Build output directory | `public` |
 | Root directory | 仓库根目录（留空） |
 
-保存并部署后，Cloudflare 会分配实际的 `*.pages.dev` 地址。首次连接需要在 Cloudflare 中授权该 GitHub 仓库；本仓库不包含令牌或账户凭证。
+Cloudflare 项目已经设置为构建命令 `exit 0`、输出目录 `public`、根目录 `/`。如果要重建 GitHub 集成，进入 **Workers & Pages → tamagotchi-code → Settings → Builds & deployments**，保留这些设置并选择 `isunky/TamagotchiCode` 的 `main` 分支。部署由 Cloudflare 的 GitHub 集成触发；请在连接时允许该集成访问此仓库。本仓库不包含令牌或账户凭证。
 
 也可以在安装 Node.js 后通过 Wrangler 直接上传：
 
