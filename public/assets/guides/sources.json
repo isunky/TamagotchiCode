@@ -1,0 +1,30 @@
+[
+  {
+    "file": "zoom.webp",
+    "url": "https://tamagotchi-official.com/gb/series/paradise/images/main/howto/img_care_01_sp.png?v2=",
+    "page": "https://tamagotchi-official.com/gb/series/paradise/howto/",
+    "sha256": "031d03410095dac365c270585fa5730e78bfa591703525f780d755369c246e0d",
+    "note": "官方玩法示意图；GIF仅保留首帧。版权归BANDAI。"
+  },
+  {
+    "file": "growth.webp",
+    "url": "https://tamagotchi-official.com/gb/series/paradise/images/main/howto/img_04.png?v3=",
+    "page": "https://tamagotchi-official.com/gb/series/paradise/howto/",
+    "sha256": "269aca50fde125fc2dff466d8393ae3f65b367bcc4a748aad050630633ff724f",
+    "note": "官方玩法示意图；GIF仅保留首帧。版权归BANDAI。"
+  },
+  {
+    "file": "breeding.webp",
+    "url": "https://tamagotchi-official.com/gb/series/paradise/images/howto/img_tsushin_02.png",
+    "page": "https://tamagotchi-official.com/gb/series/paradise/howto/",
+    "sha256": "533fb6bf702c74c25a81f573c9f93e6c12b81bb8f3c18a0f5ccacb8cdb0c9431",
+    "note": "官方玩法示意图；GIF仅保留首帧。版权归BANDAI。"
+  },
+  {
+    "file": "cells.webp",
+    "url": "https://tamagotchi-official.com/gb/series/paradise/images/howto/gif_care07.gif",
+    "page": "https://tamagotchi-official.com/gb/series/paradise/howto/",
+    "sha256": "4614e7dbd4c9ac056bc52f0d3997240eda8cba46017b2cc9afe5e52ed1faba53",
+    "note": "官方玩法示意图；GIF仅保留首帧。版权归BANDAI。"
+  }
+]

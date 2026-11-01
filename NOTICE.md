@@ -1,5 +1,8 @@
 # 资料与图片归属
 
+- 2026-11-01 新增两篇中文游玩攻略：依据官方玩法页、FAQ 与文中列出的玩家实玩记录提炼整理。具体引用链接见各段落；原创记录模板与编排由本站提供。
+- `public/assets/guides/` 中的操作与成长图片摘自 BANDAI 官方玩法页，版权归 BANDAI；原地址及本地 SHA-256 见同目录 `sources.json`。GIF 转为静态首帧、图片转为 WebP，未重绘界面。此类素材不适用代码的 Apache-2.0 许可。
+
 - 原始资料：[Tamagotchi Wiki — Tamagotchi Paradise / List of Codes](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)。
 - 中文数据与初始版式来自用户提供的《Tamagotchi Paradise 中文代码图鉴》HTML（2026-10-26），本次保留其中的 78 条记录与代码，不把它们标记为重新核验的最新数据。
 - 本次修改：拆分样式、数据与交互脚本，图片保存到本地，改进移动端、键盘操作与本地状态存储，添加部署配置与校验。
