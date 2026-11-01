@@ -32,7 +32,7 @@ for (const source of sources) {
   assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
 }
 for (const match of read('index.html').matchAll(/(?:src|href)="(\.\/[^"#]+)"/g)) {
-  assert(existsSync(path.join(publicDir, match[1])), `Broken HTML asset: ${match[1]}`);
+  assert(existsSync(path.join(publicDir, match[1].split(/[?#]/)[0])), `Broken HTML asset: ${match[1]}`);
 }
 assert(!/https?:\/\//.test(read('assets/app.js').replace(/const SRC_PAGE=.*;/, '')), 'App should not request external assets');
 assert(!/src="https?:/.test(read('index.html')), 'HTML should not request external assets');
