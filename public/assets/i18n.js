@@ -52,7 +52,8 @@
   const select=document.createElement('select');select.id='site-language';select.setAttribute('aria-label','语言 / Language');
   for(const [value,name] of Object.entries(languages)){const option=document.createElement('option');option.value=value;option.textContent=name;option.lang=value;select.append(option)}
   select.value=language;label.append(icon,select);
-  const header=document.querySelector('.topbar,.guide-header');header?.append(label);
+  const header=document.querySelector('.topbar,.guide-header');
+  const preferences=document.createElement('div');preferences.className='site-preferences';preferences.append(label);header?.append(preferences);
   select.addEventListener('change',()=>{
     language=select.value;try{localStorage.setItem(storageKey,language)}catch(_){}
     const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url.href);

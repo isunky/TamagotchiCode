@@ -2273,5 +2273,23 @@ window.TAMA_TRANSLATIONS = {
     "en": "Share this guide in your selected language.",
     "ja": "選択した言語のガイドを共有できます。",
     "ko": "선택한 언어로 이 가이드를 공유해요."
+  },
+  "外观：跟随系统；切换到深色模式": {
+    "zh-TW": "外觀：跟隨系統；切換至深色模式",
+    "en": "Appearance: system; switch to dark mode",
+    "ja": "表示：システム設定。ダークモードに切り替え",
+    "ko": "화면: 시스템 설정. 다크 모드로 전환"
+  },
+  "外观：深色模式；切换到浅色模式": {
+    "zh-TW": "外觀：深色模式；切換至淺色模式",
+    "en": "Appearance: dark; switch to light mode",
+    "ja": "表示：ダーク。ライトモードに切り替え",
+    "ko": "화면: 다크 모드. 라이트 모드로 전환"
+  },
+  "外观：浅色模式；切换到跟随系统": {
+    "zh-TW": "外觀：淺色模式；切換至跟隨系統",
+    "en": "Appearance: light; switch to system setting",
+    "ja": "表示：ライト。システム設定に切り替え",
+    "ko": "화면: 라이트 모드. 시스템 설정으로 전환"
   }
 };

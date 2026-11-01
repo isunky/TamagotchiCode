@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {runInNewContext} from 'node:vm';
+const source=readFileSync(new URL('../public/assets/theme.js',import.meta.url),'utf8');
+function load({saved=null,systemDark=false,blocked=false}={}){
+  const events={},domEvents={},buttonEvents={},mediaEvents={},attributes={},values=new Map([['tamaParadiseTheme_v1',saved]]);
+  const root={dataset:{},style:{}},chrome={},scheme={};
+  const button={setAttribute:(key,value)=>attributes[key]=value,addEventListener:(key,fn)=>buttonEvents[key]=fn,dataset:{}};
+  const media={matches:systemDark,addEventListener:(key,fn)=>mediaEvents[key]=fn};
+  const header={querySelector:()=>({append:()=>{}})};
+  const document={documentElement:root,readyState:'loading',querySelector:selector=>selector.includes('theme-color')?chrome:selector.includes('color-scheme')?scheme:header,createElement:()=>button,addEventListener:(key,fn)=>domEvents[key]=fn};
+  const window={matchMedia:()=>media,addEventListener:(key,fn)=>events[key]=fn};
+  const storage={getItem:key=>{if(blocked)throw new Error('denied');return values.get(key)},setItem:(key,value)=>{if(blocked)throw new Error('denied');values.set(key,value)}};
+  runInNewContext(source,{document,window,localStorage:storage});
+  return {root,values,attributes,chrome,mount:()=>domEvents.DOMContentLoaded(),click:()=>buttonEvents.click(),system:value=>{media.matches=value;mediaEvents.change()},storage:value=>events.storage({key:'tamaParadiseTheme_v1',newValue:value}),window};
+}
+const auto=load({systemDark:true});
+assert.equal(auto.root.dataset.theme,'dark','System preference must apply before DOMContentLoaded');
+assert.equal(auto.root.style.colorScheme,'dark');
+auto.mount();auto.system(false);assert.equal(auto.root.dataset.theme,'light');
+auto.click();assert.equal(auto.root.dataset.themePreference,'dark');assert.equal(auto.values.get('tamaParadiseTheme_v1'),'dark');
+auto.system(false);assert.equal(auto.root.dataset.theme,'dark','Manual choice must override system changes');
+auto.click();assert.equal(auto.root.dataset.theme,'light');
+auto.click();assert.equal(auto.root.dataset.themePreference,'system');
+auto.system(true);assert.equal(auto.root.dataset.theme,'dark');
+auto.storage('light');assert.equal(auto.root.dataset.theme,'light','Other tabs should sync');
+auto.storage(null);assert.equal(auto.root.dataset.themePreference,'system');
+assert.equal(load({saved:'light',systemDark:true}).root.dataset.theme,'light');
+assert.equal(load({saved:'dark',systemDark:false}).root.dataset.theme,'dark');
+assert.equal(load({saved:'invalid',systemDark:true}).root.dataset.themePreference,'system');
+const denied=load({blocked:true});denied.mount();denied.click();assert.equal(denied.root.dataset.theme,'dark','Blocked storage must not break switching');
+console.log('Validated early theme application, system following, manual preference, cross-tab updates and denied storage.');
