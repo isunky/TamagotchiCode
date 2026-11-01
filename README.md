@@ -20,6 +20,8 @@
 
 ## 图鉴功能
 
+- **五种语言：** 简体中文、繁體中文、日本語、한국어和 English，覆盖图鉴及两篇攻略。右上角切换并记住选择，也支持 `?lang=zh-CN`、`zh-TW`、`ja`、`ko`、`en` 分享链接。角色保留原英文标识，物品名称与说明随语言切换。
+
 - **图文攻略：** [新手攻略](https://tc.sunky.net/beginner.html)涵盖操作与日常照顾；[进阶攻略](https://tc.sunky.net/advanced.html)整理细胞观察、遗传与版本差异，附官方配图及来源。
 
 - **快速查找：** 搜索中文名、英文名、兑换码或获取途径。
@@ -78,6 +80,8 @@ scripts/
 编辑图鉴数据时，更新 `public/assets/data.js` 中对应记录，并保留 `localImg` 路径和 `public/assets/image-sources.json` 中的图片来源记录。
 
 ## 资料与版权
+
+多语言文案集中保存在 `public/assets/i18n-data.js`，中文文本作为键；新增或修改中文内容时同步补充四种译文。运行 `node scripts/validate-locales.mjs` 可检查页面、数据名称和说明的翻译覆盖。图片中的原始界面文字保持不变，图片下方说明支持切换语言。
 
 代码与中文整理依据 [Tamagotchi Wiki 的代码列表](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)。本项目为非官方中文整理，代码适用性请以实际设备为准。
 
