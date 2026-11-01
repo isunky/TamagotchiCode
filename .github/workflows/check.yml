@@ -18,4 +18,6 @@ jobs:
       - run: node --check public/assets/i18n.js
       - run: node --check public/assets/i18n-data.js
       - run: node scripts/validate-locales.mjs
+      - run: node --check public/assets/share.js
+      - run: node scripts/validate-sharing.mjs
       - run: node scripts/validate.mjs

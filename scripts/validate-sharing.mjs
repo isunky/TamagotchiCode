@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import {getShareURL,copyShareLink,shareNative} from '../public/assets/share-utils.mjs';
+
+assert.equal(getShareURL({pathname:'/index.html',hash:'#tools',search:'?private=example'},'ja'),'https://tc.sunky.net/?lang=ja#tools');
+assert.equal(getShareURL({pathname:'/advanced.html',hash:'#cells'},'ko'),'https://tc.sunky.net/advanced.html?lang=ko#cells');
+assert.equal(getShareURL({pathname:'/beginner.html',hash:''},'zh-TW'),'https://tc.sunky.net/beginner.html?lang=zh-TW');
+assert.equal(getShareURL({pathname:'/unexpected',hash:'#bad value'},'unknown'),'https://tc.sunky.net/?lang=zh-CN');
+const link=getShareURL({pathname:'/'},'en');let copied='',fallbackCalls=0;
+assert.equal(await copyShareLink(link,{writeText:async value=>{copied=value}},()=>{throw new Error('Fallback should not run')}),true);
+assert.equal(copied,link);
+assert.equal(await copyShareLink(link,{writeText:async()=>{throw new Error('denied')}},()=>{fallbackCalls++;return true}),true);
+assert.equal(fallbackCalls,1);
+assert.equal(await copyShareLink(link,undefined,()=>false),false);
+assert.equal(await copyShareLink(link,undefined,()=>{throw new Error('unsupported')}),false);
+assert.equal(await shareNative({url:link},{}),'unavailable');
+assert.equal(await shareNative({url:link},{share:async()=>{},canShare:()=>false}),'unavailable');
+assert.equal(await shareNative({url:link},{share:async()=>{throw {name:'AbortError'}}}),'cancelled');
+assert.equal(await shareNative({url:link},{share:async()=>{throw {name:'NotAllowedError'}}}),'unavailable');
+let shared;
+assert.equal(await shareNative({url:link,title:'Archive'},{share:async data=>{shared=data},canShare:()=>true}),'opened');
+assert.equal(shared.url,link);
+console.log('Validated canonical share URLs, locale/section retention, clipboard fallback, native cancellation and errors.');
