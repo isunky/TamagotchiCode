@@ -2225,5 +2225,53 @@ window.TAMA_TRANSLATIONS = {
     "en": "Device sharing is unavailable. Please copy the link instead.",
     "ja": "端末の共有を開けません。リンクをコピーしてください。",
     "ko": "기기 공유를 열 수 없어요. 링크를 복사해 주세요."
+  },
+  "分享代码 ↗": {
+    "zh-TW": "分享代碼 ↗",
+    "en": "Share code ↗",
+    "ja": "コードを共有 ↗",
+    "ko": "코드 공유 ↗"
+  },
+  "分享这篇攻略 ↗": {
+    "zh-TW": "分享這篇攻略 ↗",
+    "en": "Share this guide ↗",
+    "ja": "このガイドを共有 ↗",
+    "ko": "가이드 공유 ↗"
+  },
+  "分享章节 ↗": {
+    "zh-TW": "分享章節 ↗",
+    "en": "Share section ↗",
+    "ja": "この章を共有 ↗",
+    "ko": "문단 공유 ↗"
+  },
+  "正在查看朋友分享的代码": {
+    "zh-TW": "正在檢視朋友分享的代碼",
+    "en": "Viewing a shared code",
+    "ja": "共有されたコードを表示中",
+    "ko": "공유받은 코드를 보고 있어요"
+  },
+  "查看全部代码": {
+    "zh-TW": "檢視全部代碼",
+    "en": "Browse all codes",
+    "ja": "すべてのコードを見る",
+    "ko": "모든 코드 보기"
+  },
+  "朋友打开链接即可查看这条代码、图片与适用版本。": {
+    "zh-TW": "朋友開啟連結即可檢視這條代碼、圖片與適用版本。",
+    "en": "Open this link to see the item, code and supported devices.",
+    "ja": "リンクからアイテムの画像・コード・対応機種を確認できます。",
+    "ko": "링크를 열면 아이템 이미지, 코드, 지원 기종을 확인할 수 있어요."
+  },
+  "朋友打开链接后会直接定位到这个章节。": {
+    "zh-TW": "朋友開啟連結後會直接定位到這個章節。",
+    "en": "This link opens directly at this section.",
+    "ja": "リンクを開くと、この章に直接移動します。",
+    "ko": "링크를 열면 이 문단으로 바로 이동해요."
+  },
+  "分享这篇攻略，朋友将以你选择的语言阅读。": {
+    "zh-TW": "分享這篇攻略，朋友將以你選擇的語言閱讀。",
+    "en": "Share this guide in your selected language.",
+    "ja": "選択した言語のガイドを共有できます。",
+    "ko": "선택한 언어로 이 가이드를 공유해요."
   }
 };

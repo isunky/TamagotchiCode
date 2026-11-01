@@ -5,6 +5,11 @@ assert.equal(getShareURL({pathname:'/index.html',hash:'#tools',search:'?private=
 assert.equal(getShareURL({pathname:'/advanced.html',hash:'#cells'},'ko'),'https://tc.sunky.net/advanced.html?lang=ko#cells');
 assert.equal(getShareURL({pathname:'/beginner.html',hash:''},'zh-TW'),'https://tc.sunky.net/beginner.html?lang=zh-TW');
 assert.equal(getShareURL({pathname:'/unexpected',hash:'#bad value'},'unknown'),'https://tc.sunky.net/?lang=zh-CN');
+assert.equal(getShareURL({pathname:'/',hash:'#tools'},'ja',{itemId:21,hash:'#main'}),'https://tc.sunky.net/?lang=ja&item=21#main');
+assert.equal(getShareURL({pathname:'/',search:'?item=21&private=example'},'en'),'https://tc.sunky.net/?lang=en&item=21');
+assert.equal(getShareURL({pathname:'/advanced.html',hash:'#cells'},'ko',{guide:true,hash:''}),'https://tc.sunky.net/advanced.html?lang=ko');
+assert.equal(getShareURL({pathname:'/beginner.html',hash:''},'en',{section:'daily',hash:'#daily'}),'https://tc.sunky.net/beginner.html?lang=en#daily');
+assert.equal(getShareURL({pathname:'/'},'en',{itemId:'1&private=leak'}),'https://tc.sunky.net/?lang=en');
 const link=getShareURL({pathname:'/'},'en');let copied='',fallbackCalls=0;
 assert.equal(await copyShareLink(link,{writeText:async value=>{copied=value}},()=>{throw new Error('Fallback should not run')}),true);
 assert.equal(copied,link);
