@@ -22,4 +22,6 @@ jobs:
       - run: node scripts/validate-sharing.mjs
       - run: node --check public/assets/theme.js
       - run: node scripts/validate-theme.mjs
+      - run: node --check public/assets/experience.js
+      - run: node scripts/validate-search.mjs
       - run: node scripts/validate.mjs

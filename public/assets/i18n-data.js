@@ -2291,5 +2291,47 @@ window.TAMA_TRANSLATIONS = {
     "en": "Appearance: light; switch to system setting",
     "ja": "表示：ライト。システム設定に切り替え",
     "ko": "화면: 라이트 모드. 시스템 설정으로 전환"
+  },
+  "返回顶部": {
+    "zh-TW": "返回頂部",
+    "en": "Back to top",
+    "ja": "ページ上部へ",
+    "ko": "맨 위로"
+  },
+  "获取说明": {
+    "zh-TW": "取得說明",
+    "en": "How to get it",
+    "ja": "入手方法",
+    "ko": "획득 방법"
+  },
+  "清空搜索": {
+    "zh-TW": "清空搜尋",
+    "en": "Clear search",
+    "ja": "検索を消去",
+    "ko": "검색 지우기"
+  },
+  "当前筛选条件": {
+    "zh-TW": "目前篩選條件",
+    "en": "Active filters",
+    "ja": "選択中の条件",
+    "ko": "적용된 필터"
+  },
+  "移除此筛选": {
+    "zh-TW": "移除此篩選",
+    "en": "Remove filter",
+    "ja": "この条件を解除",
+    "ko": "필터 해제"
+  },
+  "使用进度": {
+    "zh-TW": "使用進度",
+    "en": "Codes used",
+    "ja": "使用済みコード",
+    "ko": "사용한 코드"
+  },
+  "代码使用进度": {
+    "zh-TW": "代碼使用進度",
+    "en": "Code usage progress",
+    "ja": "コードの使用状況",
+    "ko": "코드 사용 현황"
   }
 };

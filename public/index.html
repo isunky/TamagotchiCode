@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><script src="./assets/theme.js?v=20261101-dark1"></script>
+<head><script src="./assets/theme.js?v=20261101-polish1"></script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light" />
 <meta name="description" content="拓麻歌子 Tamagotchi Paradise 中文代码图鉴，收录角色贴纸、食物、零食、装饰与户外玩具。支持版本筛选、代码复制及已使用标记。">
 <meta name="theme-color" content="#6e57c9">
-<link rel="icon" href="./assets/favicon.svg?v=20261101-dark1" type="image/svg+xml">
+<link rel="icon" href="./assets/favicon.svg?v=20261101-polish1" type="image/svg+xml">
 <title>拓麻歌子 Paradise · 中文代码图鉴</title>
-<link rel="stylesheet" href="./assets/styles.css?v=20261101-dark1">
-<link rel="stylesheet" href="./assets/refresh.css?v=20261101-dark1">
-<link rel="stylesheet" href="./assets/i18n.css?v=20261101-dark1"><script src="./assets/i18n-data.js?v=20261101-dark1" defer></script><script src="./assets/i18n.js?v=20261101-dark1" defer></script><link rel="stylesheet" href="./assets/share.css?v=20261101-dark1"><script type="module" src="./assets/share.js?v=20261101-dark1"></script><link rel="stylesheet" href="./assets/theme.css?v=20261101-dark1"></head>
+<link rel="stylesheet" href="./assets/styles.css?v=20261101-polish1">
+<link rel="stylesheet" href="./assets/refresh.css?v=20261101-polish1">
+<link rel="stylesheet" href="./assets/i18n.css?v=20261101-polish1"><script src="./assets/i18n-data.js?v=20261101-polish1" defer></script><script src="./assets/i18n.js?v=20261101-polish1" defer></script><link rel="stylesheet" href="./assets/share.css?v=20261101-polish1"><script type="module" src="./assets/share.js?v=20261101-polish1"></script><link rel="stylesheet" href="./assets/theme.css?v=20261101-polish1"><link rel="stylesheet" href="./assets/polish.css?v=20261101-polish1"><script src="./assets/experience.js?v=20261101-polish1" defer></script></head>
 <body>
 <a class="skip-link" href="#main">跳到代码列表</a>
 <noscript><p class="noscript">请启用 JavaScript 以使用代码图鉴、搜索与筛选。</p></noscript>
@@ -28,14 +28,15 @@
 </section>
 <section class="stats" aria-label="收录统计"><div class="stat stat-mint"><div class="stat-label">收录记录</div><strong>78</strong><small>条</small></div><div class="stat"><div class="stat-label">已公开代码</div><strong>77</strong><small>条记录</small></div><div class="stat"><div class="stat-label">兑换类别</div><strong>05</strong><small>大类</small></div><div class="stat stat-yellow"><div class="stat-label">尚未公布代码</div><strong>01</strong><small>条</small></div></section>
 <section class="playbook-entry" aria-label="游玩攻略"><a href="./beginner.html"><span class="entry-icon">01</span><div><small>从第一颗蛋开始</small><h2>新手攻略 <span>↗</span></h2><p>操作入门、日常照顾与代码使用</p></div></a><a href="./advanced.html"><span class="entry-icon">02</span><div><small>解锁养成的更多可能</small><h2>进阶攻略 <span>↗</span></h2><p>细胞观察、遗传配对与版本收藏</p></div></a></section>
-<section id="tools" class="toolbar" aria-label="筛选工具"><div class="toolbar-heading"><div><span class="tiny-label">FIND YOUR NEXT FAVORITE</span><h2>今天，想发现什么？</h2></div><button type="button" class="reset-filters" id="clear-filters">重置筛选 ↺</button></div><div class="toolbar-top"><div class="searchbox"><span class="search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4" stroke-linecap="round"/></svg></span><input id="search" type="search" placeholder="搜搜角色、物品名称或代码…" autocomplete="off" aria-label="搜索代码"></div><div class="selectwrap"><label for="version">我的主机版本</label><select id="version"><option value="*">全部版本 · 不筛选</option><option value="land">粉色陆地 Land</option><option value="water">蓝色海洋 Water</option><option value="sky">紫色天空 Sky</option><option value="jade">翡翠森林 Jade</option><option value="tropics">橙色热带 Tropics</option><option value="glacier">白色冰川 Glacier</option><option value="neon">霓虹星球 Neon Planets</option></select></div></div><nav id="tabs" class="tabs" aria-label="类别选择"></nav></section>
+<section id="tools" class="toolbar" aria-label="筛选工具"><div class="toolbar-heading"><div><span class="tiny-label">FIND YOUR NEXT FAVORITE</span><h2>今天，想发现什么？</h2></div><button type="button" class="reset-filters" id="clear-filters">重置筛选 ↺</button></div><div class="toolbar-top"><div class="searchbox"><span class="search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4" stroke-linecap="round"/></svg></span><input id="search" type="search" placeholder="搜搜角色、物品名称或代码…" autocomplete="off" aria-label="搜索代码"><button type="button" id="search-clear" class="search-clear" aria-label="清空搜索" hidden>×</button></div><div class="selectwrap"><label for="version">我的主机版本</label><select id="version"><option value="*">全部版本 · 不筛选</option><option value="land">粉色陆地 Land</option><option value="water">蓝色海洋 Water</option><option value="sky">紫色天空 Sky</option><option value="jade">翡翠森林 Jade</option><option value="tropics">橙色热带 Tropics</option><option value="glacier">白色冰川 Glacier</option><option value="neon">霓虹星球 Neon Planets</option></select></div></div><nav id="tabs" class="tabs" aria-label="类别选择"></nav><div id="filter-chips" class="filter-chips" aria-label="当前筛选条件" hidden></div><div class="collection-status"><span>使用进度</span><progress id="used-progress" value="0" max="77" aria-label="代码使用进度"></progress><strong id="used-count" aria-live="polite">0 / 77</strong></div></section>
 <div class="info"><div class="section-title"><h2 id="list-title">全部代码</h2><span class="result" id="result-count" role="status" aria-live="polite"></span></div><div class="actions"><label class="switch" title="隐藏已经标记为使用过的代码"><input id="hide-used" type="checkbox">隐藏已使用</label><div class="view"><button id="view-grid" class="active" type="button">▦ 图鉴</button><button id="view-table" type="button">☷ 表格</button></div></div></div>
 <main id="main" tabindex="-1"><div id="grid" class="grid"></div><div id="table-view" class="table-view"></div><section id="empty" class="empty"><div class="face">◕‿◕</div><h3>没有匹配的代码</h3><p>试试其他关键词、类别或主机版本。</p><button type="button" class="copy" id="reset" style="margin:10px auto 0;padding:12px 24px">清除筛选</button></section></main>
 <section id="guide" class="notes"><article class="note-box purple"><h3>✦ 实验室角色码怎么用？</h3><p>这些代码来自角色研究贴纸。输入后可查看对应角色的「Tama Cells（拓麻细胞）」信息，帮助推测获得该角色的条件。贴纸代码可以重复输入。若该角色不在当前主机版本中，会显示“无数据”，并有机会获得 50 Gotchi Points 补偿；该 50G 奖励每天最多领取一次。</p></article><article class="note-box"><h3>✦ 商店兑换码注意事项</h3><ul><li>商店代码用于<strong>解锁商店里的可购买物品</strong>，并不一定直接免费发放。</li><li>部分代码仅支持特定版本；请选择自己的主机版本筛选。</li><li>相同的代码在不同版本可能对应<strong>不同物品或外观</strong>（例如学士帽、书本）。</li><li>角色的中文称呼为方便阅读的意译；准确查找可使用保留的英文名称。</li></ul></article></section>
 <footer class="footer"><div>资料来源：<a href="https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes" target="_blank" rel="noopener">Tamagotchi Wiki / Fandom — List of Codes</a>。原站社群内容依据 <a href="https://www.fandom.com/licensing" target="_blank" rel="noopener">CC BY-SA</a> 许可提供，图片版权归各原权利人所有。<br>本页为非官方中文整理，兑换成功与兼容性请以实际设备为准。图片已保存在本站，无需连接原 Wiki 加载。使用标记仅保存在当前浏览器。</div><div class="date">原整理日期：2026.10.26</div></footer>
 </div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div><div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="放大查看图片"><button type="button" class="close-lightbox" aria-label="关闭">×</button><figure><img id="big-image" alt=""><figcaption id="big-caption"></figcaption></figure></div>
-<script src="./assets/data.js?v=20261101-dark1" defer></script>
-<script src="./assets/app.js?v=20261101-dark1" defer></script>
+<script src="./assets/data.js?v=20261101-polish1" defer></script>
+<script src="./assets/archive-utils.js?v=20261101-polish1" defer></script>
+<script src="./assets/app.js?v=20261101-polish1" defer></script>
 </body>
 </html>
