@@ -1,88 +1,90 @@
 <div align="center">
 
-# 🐣 Tamagotchi Paradise 中文代码图鉴
+<img src="public/assets/art/paradise-hero-v2.webp" alt="紫色与薄荷绿的虚拟宠物机插画" width="460">
 
-查兑换码、看适用版本、复制即用。
+# 🐣 Tamagotchi Paradise
+### 小小世界，藏着好多惊喜。
 
-[![立即在线访问](https://img.shields.io/badge/在线访问-立即体验-6C5CE7?style=for-the-badge&logo=cloudflare&logoColor=white)](https://tc.sunky.net/)
+一份陪你探索拓麻星球的口袋图鉴。<br>
+找代码、看攻略，把喜欢的角色和小物带回家。
 
-[![构建状态](https://img.shields.io/github/actions/workflow/status/isunky/TamagotchiCode/check.yml?branch=main&label=build&logo=githubactions&logoColor=white)](https://github.com/isunky/TamagotchiCode/actions/workflows/check.yml)
-[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-在线-F38020?logo=cloudflare&logoColor=white)](https://tc.sunky.net/)
-[![静态网站](https://img.shields.io/badge/依赖-零-blue)](https://github.com/isunky/TamagotchiCode)
+[![打开在线图鉴](https://img.shields.io/badge/✦_在线图鉴-立即探索-7854B6?style=for-the-badge)](https://tc.sunky.net/)
 
-[打开在线图鉴](https://tc.sunky.net/) · [浏览 GitHub 仓库](https://github.com/isunky/TamagotchiCode) · [查看英文资料](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)
+[![新手攻略](https://img.shields.io/badge/🌱_新手攻略-从第一颗蛋开始-7DA890?style=for-the-badge)](https://tc.sunky.net/beginner.html)
+[![进阶攻略](https://img.shields.io/badge/✨_进阶攻略-发现更多可能-B38AC4?style=for-the-badge)](https://tc.sunky.net/advanced.html)
+
+**78 条收录 · 5 大类别 · 5 种语言**
+
+[简体中文](https://tc.sunky.net/?lang=zh-CN) · [繁體中文](https://tc.sunky.net/?lang=zh-TW) · [日本語](https://tc.sunky.net/?lang=ja) · [한국어](https://tc.sunky.net/?lang=ko) · [English](https://tc.sunky.net/?lang=en)
 
 </div>
 
-## 关于本项目
+---
 
-一个轻巧的中文速查页，整理 Tamagotchi Paradise 的角色贴纸码与商店兑换码。共收录 **78 条记录**，其中 **77 张图片已随项目保存**；打开图鉴后，不必再从原站加载图片。
+## 🌷 你的 Paradise 游玩小帮手
 
-## 图鉴功能
+想找某个角色的研究代码，或给星球添一件新玩具？这里把角色贴纸码、商店码和游玩攻略整理在一起，配上图片与说明，方便随时翻看。
 
-- **五种语言：** 简体中文、繁體中文、日本語、한국어和 English，覆盖图鉴及两篇攻略。右上角切换并记住选择，也支持 `?lang=zh-CN`、`zh-TW`、`ja`、`ko`、`en` 分享链接。角色保留原英文标识，物品名称与说明随语言切换。
+**手机、电脑都能直接打开，无需安装或注册。**
 
-- **图文攻略：** [新手攻略](https://tc.sunky.net/beginner.html)涵盖操作与日常照顾；[进阶攻略](https://tc.sunky.net/advanced.html)整理细胞观察、遗传与版本差异，附官方配图及来源。
+## 🎒 图鉴里有什么？
 
-- **快速查找：** 搜索中文名、英文名、兑换码或获取途径。
-- **按需筛选：** 按类别和主机版本查找适用代码。
-- **一键复制：** 保留代码中的空格和前导零。
-- **两种视图：** 在图片卡片与紧凑表格间切换。
-- **个人标记：** 记下已使用的代码；标记和筛选偏好保存在当前浏览器。
-- **原图放大：** 点击图片查看细节，也支持键盘操作。
+| 类别 | 一起发现 |
+| :--- | :--- |
+| 🔬 实验室角色码 | 查看角色研究资料，寻找养成线索 |
+| 🍙 食物 | 为日常喂食增加选择 |
+| 🍦 零食 | 找到喜欢的小点心 |
+| 🎀 装饰道具 | 收集帽子、头箍和各式可爱装饰 |
+| 🛝 户外玩具 | 给星球居民添一些玩耍的乐趣 |
 
-## 在线使用
+## ✨ 查找更轻松，收藏更有条理
 
-直接打开 **[tc.sunky.net](https://tc.sunky.net/)** 即可。无需安装或注册；GitHub 上的 `main` 分支更新后，Cloudflare Pages 会自动重新部署。
+- **搜一搜就找到**：支持名称、代码和获取途径，也保留英文名称方便对照。
+- **先选自己的主机**：按机型和类别筛选，查找适用内容。
+- **喜欢就复制**：一键复制代码，省去来回抄写。
+- **图片看仔细**：卡片浏览、图片放大，也可以切成表格快速查阅。
+- **用过就做个记号**：标记已使用的代码，或暂时隐藏，慢慢完成自己的收藏。
+- **用熟悉的语言阅读**：五种语言随时切换，图鉴和攻略一起切换，并记住你的选择。
 
-## 在本地运行
+> 使用标记保存在当前浏览器中，换设备或浏览器后需要重新标记。
 
-项目是纯静态网页，无需 npm 安装、打包或构建。用 Python 启动本地预览：
+## 📖 从第一颗蛋，到下一代惊喜
 
-```bash
-python -m http.server 8080 --directory public
-```
+| 现在的你 | 推荐阅读 |
+| :--- | :--- |
+| 刚拿到机器，不知道从哪里开始 | **[🌱 新手攻略](https://tc.sunky.net/beginner.html)** — 认识按键和旋钮、学会日常照顾、安排保姆、了解代码用法 |
+| 已经养过一代，想探索更多玩法 | **[✨ 进阶攻略](https://tc.sunky.net/advanced.html)** — 观察细胞、记录养成路线、尝试配对遗传、核对版本与收藏空间 |
 
-浏览器访问 [http://localhost:8080](http://localhost:8080)。也可以直接打开 `public/index.html`；部分浏览器在直接打开文件时会限制剪贴板或本地存储功能。
+两篇攻略均配有操作示意、流程或对照表，并附参考来源。官方说明和玩家经验分别标注，方便边玩边查。
 
-## Cloudflare Pages 部署
+## 🪄 三步找到下一份快乐
 
-本仓库已连接至 Cloudflare Pages 项目 **`tamagotchi-code`**。自动部署设置如下：
+1. 打开 **[tc.sunky.net](https://tc.sunky.net/)**，选择熟悉的语言。
+2. 选好自己的主机版本，搜索角色、物品或代码。
+3. 查看图片与说明，复制代码；用过后顺手标记。
 
-| 项目 | 设置 |
-| --- | --- |
-| GitHub 仓库 | [`isunky/TamagotchiCode`](https://github.com/isunky/TamagotchiCode) |
-| 生产分支 | `main` |
-| 框架预设 | `None` |
-| 构建命令 | `exit 0` |
-| 输出目录 | `public` |
-| 根目录 | `/`（仓库根目录） |
-| 正式网址 | [tc.sunky.net](https://tc.sunky.net/) |
+> **小提醒**<br>
+> 商店码通常用于解锁可购买物品，不一定直接免费赠送；部分内容受机型限制。尚未公布的代码会明确标注，使用前请核对说明。
 
-其他分支会生成预览部署。检查或修改设置时，在 Cloudflare 控制台打开 **Workers & Pages → tamagotchi-code → Settings → Builds & deployments**。
+## 💌 一起把图鉴补得更完整
 
-## 项目结构
+发现了新代码、想补充游玩心得，或者看到需要修正的地方，都欢迎告诉我们。
 
-```text
-public/
-├── index.html                 页面结构
-├── _headers                   响应头与图片缓存
-└── assets/
-    ├── app.js                 搜索、筛选、复制与界面交互
-    ├── data.js                代码、分类与来源说明
-    ├── styles.css             页面样式与窄屏布局
-    ├── image-sources.json     图片来源与 SHA-256 校验值
-    └── images/                本地 WebP 图片
-scripts/
-└── validate.mjs               校验数据、图片与文件引用
-```
+**[分享线索与反馈 →](https://github.com/isunky/TamagotchiCode/issues)**<br>
+如果这份图鉴帮到了你，也欢迎点亮一颗 ⭐，让更多玩家找到它。
 
-编辑图鉴数据时，更新 `public/assets/data.js` 中对应记录，并保留 `localImg` 路径和 `public/assets/image-sources.json` 中的图片来源记录。
+## 🌼 感谢与说明
 
-## 资料与版权
+代码资料主要参考 [Tamagotchi Wiki](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)，攻略参考 [官方玩法说明](https://tamagotchi-official.com/gb/series/paradise/howto/)、[官方 FAQ](https://tamagotchi-official.com/gb/series/paradise/faq/) 及文中列出的玩家实玩记录。感谢分享资料与经验的每一位玩家。
 
-多语言文案集中保存在 `public/assets/i18n-data.js`，中文文本作为键；新增或修改中文内容时同步补充四种译文。运行 `node scripts/validate-locales.mjs` 可检查页面、数据名称和说明的翻译覆盖。图片中的原始界面文字保持不变，图片下方说明支持切换语言。
+本项目为非官方玩家整理，实际内容与兼容性以设备为准。Tamagotchi 相关商标、角色及图片归各自权利人所有，资料与图片遵循原有授权，详见 [资料来源与归属说明](NOTICE.md)。
 
-代码与中文整理依据 [Tamagotchi Wiki 的代码列表](https://tamagotchi.fandom.com/wiki/Tamagotchi_Paradise/List_of_Codes)。本项目为非官方中文整理，代码适用性请以实际设备为准。
+---
 
-仓库中的 `LICENSE` 适用于项目代码。Wiki 文字、翻译内容、拓麻歌子商标和图片分别遵循其原有权利与授权；图片来源及相关说明见 [`NOTICE.md`](NOTICE.md) 和 `public/assets/image-sources.json`。
+<div align="center">
+
+**愿你的拓麻星球，每天都有一点新惊喜。** 🌟
+
+[进入图鉴](https://tc.sunky.net/) · [新手攻略](https://tc.sunky.net/beginner.html) · [进阶攻略](https://tc.sunky.net/advanced.html)
+
+</div>
