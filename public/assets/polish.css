@@ -10,3 +10,4 @@ html[data-theme=dark] .search-clear{background:#443050;color:#d6b6ec}html[data-t
 
 .item-name{margin:0}@media(max-width:540px){.share-trigger{width:40px;height:40px;padding:0;justify-content:center;border-radius:13px}.share-trigger>span{display:none}}
 html[data-theme=light] :is(.collection-status,.item-note summary,.item-note details p,.item-en,.source-btn,.mark){color:#7e668e}html[data-theme=light] .filter-chip{color:#765287}html[data-theme=light] :is(.references,.chapter p.references,.references a,figcaption,.meta,.kicker){color:#786185}
+.searchbox input::-webkit-search-cancel-button,.searchbox input::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
