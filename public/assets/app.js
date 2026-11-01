@@ -66,3 +66,6 @@ $('#version').value=version;
 const stats=document.querySelectorAll('.stat strong');
 [DATA.length,DATA.filter(r=>r.code).length,new Set(DATA.map(r=>r.cat)).size,DATA.filter(r=>!r.code).length].forEach((n,i)=>stats[i].textContent=n);
 $('#search').addEventListener('input',e=>{search=e.target.value.trim();render()});$('#version').addEventListener('change',e=>{version=e.target.value;render()});$('#hide-used').addEventListener('change',e=>{hideUsed=e.target.checked;render()});$('#view-grid').addEventListener('click',()=>{view='grid';render()});$('#view-table').addEventListener('click',()=>{view='table';render()});$('#reset').addEventListener('click',()=>{category='all';search='';version='*';hideUsed=false;$('#search').value='';$('#version').value='*';$('#hide-used').checked=false;render()});drawTabs();render();
+
+$('#clear-filters').addEventListener('click',()=>{$('#reset').click();$('#search').focus()});
+document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!e.target.matches('input,textarea,select')&&!$('#lightbox').classList.contains('open')){e.preventDefault();$('#search').focus();$('#tools').scrollIntoView({block:'start'})}});
