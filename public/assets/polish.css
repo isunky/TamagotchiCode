@@ -30,3 +30,8 @@ html[data-theme=light] :is(.collection-status,.item-note summary,.item-note deta
 /* Generated brand mark */
 .brandmark img{display:block;width:100%;height:100%;object-fit:contain}
 .guide-header .brand img{object-fit:contain}
+.brand-wordmark{display:none;width:185px;height:auto;max-height:48px;object-fit:contain;object-position:left center}
+html[lang="zh-CN"] .topbar .brand-wordmark{display:block}
+html[lang="zh-CN"] .topbar .brandtext{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+html[data-theme=dark] .brand-wordmark{filter:brightness(0) saturate(100%) invert(90%) sepia(10%) saturate(1000%) hue-rotate(220deg)}
+@media(max-width:540px){.brand-wordmark{width:145px;max-width:calc(100vw - 130px);max-height:38px}}
